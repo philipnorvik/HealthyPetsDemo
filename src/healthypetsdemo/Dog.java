@@ -1,12 +1,7 @@
-/*
- * Javautveckling 2018
- */
+
 package healthypetsdemo;
 
-/**
- *
- * @author 01phi
- */
+
 public class Dog extends Mamal implements IMealPlan{
     
     
@@ -14,7 +9,7 @@ public class Dog extends Mamal implements IMealPlan{
         super(name, weight,FoodType.Hundfoder);
     }
     
-     public void mealPlan(){
+    public void mealPlan(){
         System.out.println("Ska ha " + foodAmount() + " gram " + FoodType.Hundfoder );
     }
      
@@ -22,5 +17,4 @@ public class Dog extends Mamal implements IMealPlan{
         int meal =weight / 100;
         return meal;
     }
-    
 }

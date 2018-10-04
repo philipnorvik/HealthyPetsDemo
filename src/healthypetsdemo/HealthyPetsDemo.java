@@ -1,6 +1,4 @@
-/*
- * Javautveckling 2018
- */
+
 
 package healthypetsdemo;
 
@@ -23,39 +21,39 @@ public class HealthyPetsDemo {
         boolean tryAgain = true;
         while(tryAgain){
             try { 
-                    String answer = JOptionPane.showInputDialog("Vilken husdjur ska matas?");
+                String answer = JOptionPane.showInputDialog("Vilken husdjur ska matas?");
 
-                    switch(answer.toLowerCase().trim()){
-                        case "sixten":
-                            IMealPlan plan1 = sixten;
-                            System.out.println(sixten.name);
-                            sixten.mealPlan();
-                            tryAgain = false;
-                            break;
-                        case "dogge":
-                            IMealPlan plan2 = dogge;
-                            System.out.println(dogge.name);
-                            dogge.mealPlan();
-                            tryAgain = false;
-                            break;
-                        case "venus":
-                            IMealPlan plan3 = venus;
-                            System.out.println(venus.name);
-                            venus.mealPlan();
-                            tryAgain = false;
-                            break;
-                        case "ove":
-                            IMealPlan plan4 = ove;
-                            System.out.println(ove.name);
-                            ove.mealPlan();
-                            tryAgain = false;
-                            break;
-                        case "hypno":
-                            IMealPlan plan5 = hypno;
-                            System.out.println(hypno.name);
-                            hypno.mealPlan();
-                            tryAgain = false;
-                            break;
+                switch(answer.toLowerCase().trim()){
+                    case "sixten":
+                        IMealPlan plan1 = sixten;
+                        System.out.println(sixten.name);
+                        sixten.mealPlan();
+                        tryAgain = false;
+                        break;
+                    case "dogge":
+                        IMealPlan plan2 = dogge;
+                        System.out.println(dogge.name);
+                        dogge.mealPlan();
+                        tryAgain = false;
+                        break;
+                    case "venus":
+                        IMealPlan plan3 = venus;
+                        System.out.println(venus.name);
+                        venus.mealPlan();
+                        tryAgain = false;
+                        break;
+                    case "ove":
+                        IMealPlan plan4 = ove;
+                        System.out.println(ove.name);
+                        ove.mealPlan();
+                        tryAgain = false;
+                        break;
+                    case "hypno":
+                        IMealPlan plan5 = hypno;
+                        System.out.println(hypno.name);
+                        hypno.mealPlan();
+                        tryAgain = false;
+                        break;
                     }
             }
             catch(Exception e){

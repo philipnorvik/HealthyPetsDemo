@@ -1,12 +1,7 @@
-/*
- * Javautveckling 2018
- */
+
 package healthypetsdemo;
 
-/**
- *
- * @author 01phi
- */
+
 abstract class Animal implements IMealPlan{
     
     //enum som håller koll på matTypen
@@ -28,33 +23,23 @@ abstract class Animal implements IMealPlan{
         return this.getClass().getName();
     }
     
-    /**
-     * @return the name
-     */
+    
     public String getName() {
         return name;
     }
 
-    /**
-     * @param name the name to set
-     */
+    
     public void setName(String name) {
         this.name = name;
     }
 
-    /**
-     * @return the weight
-     */
+    
     public int getWeight() {
         return weight;
     }
 
-    /**
-     * @param weight the weight to set
-     */
+    
     public void setWeight(int weight) {
         this.weight = weight;
     }
-    
-    
 }
