@@ -23,7 +23,7 @@ abstract class Animal implements IMealPlan{
         this.foodType = foodType;
     }
 
-    //Hämtar klass Namnet så kan man skilja om det är däggdjur eller reptil
+    //Hämtar klass Namnet så kan man skilja om det är däggdjur eller reptil  
     public String GetTypeOfAnimal(){
         return this.getClass().getName();
     }
