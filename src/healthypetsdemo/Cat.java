@@ -13,13 +13,13 @@ public class Cat extends Mamal implements IMealPlan{
     
     //Definera att detta djur äter kattmat
      Cat (String name, int weight){
-        super(name, weight,FoodType.CatFood);
+        super(name, weight,FoodType.Kattfoder);
      }
      
 
 //    ska detta vara i main? 
     public void mealPlan(){
-        System.out.println("ska ha " + foodAmount() + " gram kattfoder" );
+        System.out.println("ska ha " + foodAmount() + " gram " + FoodType.Kattfoder);
     }
     
 //   ska detta in i interfacet IMealPlan???

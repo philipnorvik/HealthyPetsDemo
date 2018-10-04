@@ -10,5 +10,5 @@ package healthypetsdemo;
  * @author Admin
  */
 public enum FoodType {
-    DogFood, CatFood, SnakeFood
+    Hundfoder, Kattfoder, Ormpellets
 }

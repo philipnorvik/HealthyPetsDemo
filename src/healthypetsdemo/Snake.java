@@ -11,10 +11,10 @@ public class Snake extends Reptile implements IMealPlan{
     
 
     public Snake(String name, int weight) {
-        super(name, weight,FoodType.SnakeFood);
+        super(name, weight,FoodType.Ormpellets);
     }
      public void mealPlan(){
-        System.out.println("Ska ha " + foodAmount() + " gram ormpellets" );
+        System.out.println("Ska ha " + foodAmount() + " gram " + FoodType.Ormpellets );
     }
      
     public int foodAmount(){
